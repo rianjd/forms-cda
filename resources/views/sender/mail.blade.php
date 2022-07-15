@@ -13,3 +13,6 @@
 
 
 
+@if ($data['tipo'] == 'chatForm')<p>Clique<a href="https://messenger.casasdaagua.com.br/signup_email?id=hrz53gtnrpyo3gux6pf1e9ierr"> AQUI </a> para criar um novo usuario. </p>@endif
+@if ($data['tipo'] == 'coreForm')<p>Clique<a href="https://core.casasdaagua.com.br"> AQUI </a> para criar um novo usuario. </p>@endif
+
