@@ -3,7 +3,7 @@
 @section('conteudo')
 
 <div class="content">
-
+<!--FORM CORE-->
     <div class="container">
       <div class="row align-items-stretch justify-content-center no-gutters">
         <div class="col-md-7">
