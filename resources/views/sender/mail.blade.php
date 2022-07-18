@@ -47,9 +47,9 @@
 
 
 <div class="text-center mt-3">
-    @if ($data['tipo'] == 'chatForm')<button type="button" href="https://messenger.casasdaagua.com.br/signup_email?id=hrz53gtnrpyo3gux6pf1e9ierr" class="btn btn-primary btn-md">Clique aqui para criar</button> @endif
-    @if ($data['tipo'] == 'coreForm')<button  href="https://core.casasdaagua.com.br" type="button" class="btn btn-secondary btn-md">Clique aqui para criar</button>@endif
-    @if ($data['tipo'] == 'djForm')<button type="button" href="http://wiki.casasdaagua.com.br/index.php/PROCEDIMENTOS_DE_SUPORTE" class="btn btn-primary btn-md">Clique aqui para criar</button> @endif
-    @if ($data['tipo'] == 'emailForm')<button  href="https://zimbra1.lupainformatica.com.br:7071/zimbraAdmin/" type="button" class="btn btn-info btn-md">Clique aqui para criar</button>@endif
+    @if ($data['tipo'] == 'chatForm')<a type="button" href="https://messenger.casasdaagua.com.br/signup_email?id=hrz53gtnrpyo3gux6pf1e9ierr" class="btn btn-primary btn-md">Clique aqui para criar</a> @endif
+    @if ($data['tipo'] == 'coreForm')<a  href="https://core.casasdaagua.com.br" type="button" class="btn btn-secondary btn-md">Clique aqui para criar</a>@endif
+    @if ($data['tipo'] == 'djForm')<a type="button" href="http://wiki.casasdaagua.com.br/index.php/PROCEDIMENTOS_DE_SUPORTE" class="btn btn-primary btn-md">Clique aqui para criar</a> @endif
+    @if ($data['tipo'] == 'emailForm')<a  href="https://zimbra1.lupainformatica.com.br:7071/zimbraAdmin/" type="button" class="btn btn-info btn-md">Clique aqui para criar</a>@endif
 </div>
 </div>

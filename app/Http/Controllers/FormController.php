@@ -62,7 +62,7 @@ class FormController extends Controller
         if ($data['tipo']== 'djForm') Dj::create($data);
         if ($data['tipo']== 'emailForm') Email::create($data);
 
-        Mail::to('rian.ti@casasdaagua.com.br')
+        Mail::to('suporte.ti@casasdaagua.com.br')
                 ->send(new newLaravelTips($data));
 
 
