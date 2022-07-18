@@ -19,7 +19,7 @@ class CoreTable extends Migration
             $table->string('cpf');
             $table->string('setor');
             $table->string('filial');
-            $table->string('inDJ');
+            $table->string('inDJ')->default('Não');
             $table->string('msg')->default('-');
             $table->string('updated_at');
             $table->string('created_at');

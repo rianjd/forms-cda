@@ -16,9 +16,9 @@ class DjTable extends Migration
         Schema::create('djs', function (Blueprint $table) {
             $table->id();
             $table->string('nome');
-            $table->string('setor');
+            $table->string('setor')->default('-');
             $table->string('filial');
-            $table->string('login');
+            $table->string('user');
             $table->string('msg')->default('-');
             $table->string('updated_at');
             $table->string('created_at');

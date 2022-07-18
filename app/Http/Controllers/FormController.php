@@ -5,7 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Mail;
 use App\Mail\newLaravelTips;
-use App\Models\Chat, Core, Email, Dj;
+use App\Models\Chat;
+use App\Models\Core;
+use App\Models\Email;
+use App\Models\Dj;
 
 
 class FormController extends Controller
