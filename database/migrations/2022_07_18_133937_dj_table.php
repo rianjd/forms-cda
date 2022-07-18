@@ -13,13 +13,15 @@ class DjTable extends Migration
      */
     public function up()
     {
-        Schema::create('dj_table', function (Blueprint $table) {
+        Schema::create('djs', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('nome');
             $table->string('setor');
             $table->string('filial');
             $table->string('login');
-            $table->string('msg');
+            $table->string('msg')->default('-');
+            $table->string('updated_at');
+            $table->string('created_at');
         });
     }
 
@@ -30,6 +32,6 @@ class DjTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('email_table');
+        Schema::dropIfExists('djs');
     }
 }

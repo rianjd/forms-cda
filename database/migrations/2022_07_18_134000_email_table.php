@@ -13,12 +13,14 @@ class EmailTable extends Migration
      */
     public function up()
     {
-        Schema::create('email_table', function (Blueprint $table) {
+        Schema::create('emails', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('nome');
             $table->string('setor');
             $table->string('filial');
-            $table->string('msg');
+            $table->string('msg')->default('-');
+            $table->string('updated_at');
+            $table->string('created_at');
         });
     }
 
@@ -29,6 +31,6 @@ class EmailTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('email_table');
+        Schema::dropIfExists('emails');
     }
 }

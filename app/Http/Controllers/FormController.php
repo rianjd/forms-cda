@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Mail;
 use App\Mail\newLaravelTips;
-
+use App\Models\Chat, Core, Email, Dj;
 
 
 class FormController extends Controller
@@ -42,6 +42,7 @@ class FormController extends Controller
     public function store(Request $request)
     {
 
+
         $data = array();
 
         if ($request->input('tipo') != "") $data['tipo']=$request->input('tipo');
@@ -53,7 +54,10 @@ class FormController extends Controller
         if ($request->input('inDJ') != "") $data['inDJ']=$request->input('inDJ');
         if ($request->input('msg') != "") $data['msg']=$request->input('msg');
 
-
+        if ($data['tipo']== 'coreForm') Core::create($data);
+        if ($data['tipo']== 'chatForm') Chat::create($data);
+        if ($data['tipo']== 'djForm') Dj::create($data);
+        if ($data['tipo']== 'emailForm') Email::create($data);
 
         Mail::to('rian.ti@casasdaagua.com.br')
                 ->send(new newLaravelTips($data));
