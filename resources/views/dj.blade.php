@@ -28,6 +28,7 @@
                     <label for="filial" class="col-form-label">Filial *</label>
                     <select class="form-control" name="filial" required="">
                     <option value="">Escolha...</option>
+                    <option>99 - Matriz</option>
                     <option>01 - Joinville</option><option>02 - Biguaçu</option><option>03 - Palhoça</option><option>04 - Itajaí</option><option>06 - Balneario</option><option>08 - Centro</option>
                     <option>09 - Trindade</option><option>11 - Joinville(America)</option><option>12 - Blumenau</option><option>21 - Estreito</option><option>24 - Rio do Sul</option><option>26 - Itapema</option>
                     <option>27 - Jaraguá</option><option>28 - Blumenau</option><option>29 - Tijucas</option><option>30 - Brusque</option><option>32 - Vargem Grande</option><option>34 - Porto Belo</option>
