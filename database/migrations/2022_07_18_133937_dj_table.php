@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateUsersTable extends Migration
+class DjTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,12 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('core_table', function (Blueprint $table) {
+        Schema::create('dj_table', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('cpf');
             $table->string('setor');
             $table->string('filial');
-            $table->string('inDJ');
+            $table->string('login');
             $table->string('msg');
         });
     }
@@ -31,6 +30,6 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('core_table');
+        Schema::dropIfExists('email_table');
     }
 }
