@@ -61,6 +61,7 @@
                     <option value="">Escolha...</option>
                     <option>Incidente</option>
                     <option>Solicitação</option>
+                    <option>Outro</option>
                     </select>
                     <div class="invalid-feedback">
                         Por favor, escolha um setor.
