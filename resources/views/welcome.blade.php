@@ -46,6 +46,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="/email">Email</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/chamado">Chamados</a>
+              </li>
             </ul>
 
         </div>
