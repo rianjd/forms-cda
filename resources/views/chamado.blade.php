@@ -45,7 +45,6 @@
                     <option>Aplicativos</option>
                     <option>Sistema lento</option>
                     <option>Core</option>
-                    <option value="Permissões">>> Permissões</option>
                     <option>Material</option>
                     <option>Acesso</option>
                     <option>Email</option>
@@ -60,6 +59,7 @@
                     <select class="form-control" name="tipo" required="">
                     <option value="">Escolha...</option>
                     <option>Incidente</option>
+                    <option>Assistencia</option>
                     <option>Solicitação</option>
                     <option>Outro</option>
                     </select>
