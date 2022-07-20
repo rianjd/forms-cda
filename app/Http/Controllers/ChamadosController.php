@@ -4,14 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Mail;
-use App\Mail\newLaravelTips;
-use App\Models\Chat;
-use App\Models\Core;
-use App\Models\Email;
-use App\Models\Dj;
+use App\Mail\newChamados;
 
 
-class FormController extends Controller
+
+class ChamadosController extends Controller
 
 {
 
@@ -23,7 +20,7 @@ class FormController extends Controller
      */
     public function index()
     {
-        return view('acessorios');
+        return view('chamado');
     }
 
     /**
@@ -50,20 +47,17 @@ class FormController extends Controller
 
         if ($request->input('tipo') != "") $data['tipo']=$request->input('tipo');
         if ($request->input('nome') != "") $data['nome']=$request->input('nome');
-        if ($request->input('cpf') != "") $data['cpf']=$request->input('cpf');
+        if ($request->input('categoria') != "") $data['categoria']=$request->input('categoria');
         if ($request->input('setor') != "") $data['setor']=$request->input('setor');
         if ($request->input('filial') != "") $data['filial']=$request->input('filial');
-        if ($request->input('user') != "") $data['user']=$request->input('user');
-        if ($request->input('inDJ') != "") $data['inDJ']=$request->input('inDJ');
+        if ($request->input('email') != "") $data['email']=$request->input('email');
+        if ($request->input('prioridade') != "") $data['prioridade']=$request->input('prioridade');
         if ($request->input('msg') != "") $data['msg']=$request->input('msg');
 
-        if ($data['tipo']== 'coreForm') Core::create($data);
-        if ($data['tipo']== 'chatForm') Chat::create($data);
-        if ($data['tipo']== 'djForm') Dj::create($data);
-        if ($data['tipo']== 'emailForm') Email::create($data);
+
 
         Mail::to('rian.ti@casasdaagua.com.br')
-                ->send(new newLaravelTips($data));
+                ->send(new newChamados($data));
 
 
         return back()

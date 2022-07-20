@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MailerController;
 use App\Http\Controllers\FormController;
+use App\Http\Controllers\ChamadosController;
 
 
 /*
@@ -43,6 +44,12 @@ Route::get('/email', function () {
     return view('email');
 
 });
+
+Route::get('/chamado', function () {
+    return view('chamado');
+
+});
+Route::post('/formchamado', [ChamadosController::class,'store'])->name('chamados.store');
 
 Route::post('/form', [FormController::class,'store'])->name('form.store');
 
