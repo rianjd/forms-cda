@@ -34,7 +34,7 @@ class newLaravelTips extends Mailable
     {
         $this
             ->from ( config('mail.from.address'))
-            ->subject('Nova solicitação.')
+            ->subject("Filial ".$this->data['filial']." - Novo usuario ".$this->data['tipo'])
             ->view('sender.mail')
             ->with('data',$this->data);
     }

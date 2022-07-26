@@ -76,7 +76,7 @@
                   <span class="submitting"></span>
                 </div>
               </div>
-              <input type="hidden" id="tipo" name="tipo" value="coreForm">
+              <input type="hidden" id="tipo" name="tipo" value="Core">
             </form>
 
             <div class="max-width mt-5">

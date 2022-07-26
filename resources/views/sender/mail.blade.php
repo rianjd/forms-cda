@@ -16,10 +16,10 @@
 
 <div class="container">
 
-    @if ($data['tipo'] == 'chatForm')<div class="d-flex align-items-center p-3 my-3 text-white-50 bg-primary rounded shadow"><img class="mr-3" id="logo-messenger" src={{"https://github.com/rianjd/forms-cda/blob/master/public/images/logo-mattermost.png?raw=true"}} width="50" height="50" style="display:block;" alt=""> <h3 class="text-dark">Messenger</h3> @endif
-    @if ($data['tipo'] == 'coreForm')<div class="d-flex align-items-center p-3 my-3 text-white-50 bg-secondary rounded shadow"><img class="mr-3" id="corebusiness_1200x300" src={{"https://github.com/rianjd/forms-cda/blob/master/public/images/corebusiness_1200x300.png?raw=true"}} width="160" height="40" style="display:block;" alt=""> @endif
-    @if ($data['tipo'] == 'djForm')<div class="d-flex align-items-center p-3 my-3 text-white-50 bg-primary rounded shadow"><img class="mr-3" id="djpdv" src={{"https://github.com/rianjd/forms-cda/blob/master/public/images/djpdv.png?raw=true"}} width="150" height="40" style="display:block;" alt="">  @endif
-    @if ($data['tipo'] == 'emailForm')<div class="d-flex align-items-center p-3 my-3 text-white-50 bg-info rounded shadow"><img class="mr-3" id="email" src={{"https://github.com/rianjd/forms-cda/blob/master/public/images/zimbra-black.png?raw=true"}} width="150" height="40" style="display:block;" alt="">  @endif
+    @if ($data['tipo'] == 'Chat')<div class="d-flex align-items-center p-3 my-3 text-white-50 bg-primary rounded shadow"><img class="mr-3" id="logo-messenger" src={{"https://github.com/rianjd/forms-cda/blob/master/public/images/logo-mattermost.png?raw=true"}} width="50" height="50" style="display:block;" alt=""> <h3 class="text-dark">Messenger</h3> @endif
+    @if ($data['tipo'] == 'Core')<div class="d-flex align-items-center p-3 my-3 text-white-50 bg-secondary rounded shadow"><img class="mr-3" id="corebusiness_1200x300" src={{"https://github.com/rianjd/forms-cda/blob/master/public/images/corebusiness_1200x300.png?raw=true"}} width="160" height="40" style="display:block;" alt=""> @endif
+    @if ($data['tipo'] == 'DJ')<div class="d-flex align-items-center p-3 my-3 text-white-50 bg-primary rounded shadow"><img class="mr-3" id="djpdv" src={{"https://github.com/rianjd/forms-cda/blob/master/public/images/djpdv.png?raw=true"}} width="150" height="40" style="display:block;" alt="">  @endif
+    @if ($data['tipo'] == 'Email')<div class="d-flex align-items-center p-3 my-3 text-white-50 bg-info rounded shadow"><img class="mr-3" id="email" src={{"https://github.com/rianjd/forms-cda/blob/master/public/images/zimbra-black.png?raw=true"}} width="150" height="40" style="display:block;" alt="">  @endif
 
     </div>
 
@@ -36,7 +36,7 @@
             <div class="media-body pb-3 mb-0 med lh-125 border-bottom border-gray"><p><strong>Setor: </strong>{{$data['setor'] }}</p></div></div>@endif
         @if (isset($data['filial']))<div class="media text-muted pt-4">
             <div class="media-body pb-3 mb-0 med lh-125 border-bottom border-gray"><p><strong>Filial: </strong>{{$data['filial'] }}</p></div></div>@endif
-            @if (isset($data['user']))<div class="media text-muted pt-4">
+        @if (isset($data['user']))<div class="media text-muted pt-4">
             <div class="media-body pb-3 mb-0 med lh-125 border-bottom border-gray"><p><strong>Filial: </strong>{{$data['user'] }}</p></div></div>@endif
         @if (isset($data['inDJ']))<div class="media text-muted pt-4">
             <div class="media-body pb-3 mb-0 med lh-125 border-bottom border-gray"><p><strong>Incluir no DJ: </strong>{{$data['inDJ'] }}</p></div></div>@endif

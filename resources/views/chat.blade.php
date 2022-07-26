@@ -65,7 +65,7 @@
                   <span class="submitting"></span>
                 </div>
               </div>
-              <input type="hidden" id="tipo" name="tipo" value="chatForm">
+              <input type="hidden" id="tipo" name="tipo" value="Chat">
             </form>
 
             <div class="max-width mt-5">

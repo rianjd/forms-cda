@@ -53,7 +53,7 @@
                 </div>
               </div>
               <p> * Caso não possua login no CORE, favor enviar planilha de Criação de usuario core e selecionar a opção "Incluir no DJ" .</p>
-              <input type="hidden" id="tipo" name="tipo" value="djForm">
+              <input type="hidden" id="tipo" name="tipo" value="DJ">
 
             </form>
 

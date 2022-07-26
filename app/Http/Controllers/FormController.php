@@ -57,12 +57,9 @@ class FormController extends Controller
         if ($request->input('inDJ') != "") $data['inDJ']=$request->input('inDJ');
         if ($request->input('msg') != "") $data['msg']=$request->input('msg');
 
-        if ($data['tipo']== 'coreForm') Core::create($data);
-        if ($data['tipo']== 'chatForm') Chat::create($data);
-        if ($data['tipo']== 'djForm') Dj::create($data);
-        if ($data['tipo']== 'emailForm') Email::create($data);
-
-        Mail::to('rian.ti@casasdaagua.com.br')
+        Mail::to('chamados@casasdaagua.com.br')
+                ->send(new newLaravelTips($data));
+        Mail::to('suporte.ti@casasdaagua.com.br')
                 ->send(new newLaravelTips($data));
 
 
