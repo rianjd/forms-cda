@@ -8,11 +8,11 @@
         <div class="accordion " id="accordion">
             <div class="card" id="Tone">
                 <div class="card-header" >
-                        <button class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#one" aria-expanded="true" aria-controls="one">
+                        <button class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#one" aria-expanded="false" aria-controls="one">
                             <img src="images/corebusiness_1200x300.png" width="120" height="30" class="d-inline-block align-top" alt="">
                         </button>
                 </div>
-                <div class="card-body text-center collapse show" id="one" aria-labelledby="Tone" data-parent="#accordion">
+                <div class="card-body text-center collapse " id="one" aria-labelledby="Tone" data-parent="#accordion">
                     <h5 class="card-title">Criação de usuario CoreBusiness</h5>
                     <p class="card-text mb-5">Enviar informações do colaborador para a criação de acesso ao sistema do Core.</p>
                     <a href="/core" class="btn btn-primary"  >Ir ao formulario</a>
@@ -56,13 +56,13 @@
             </div>
             <div class="card">
                     <div class="card-header" id="Five">
-                        <button class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#five" aria-expanded="false" aria-controls="five">
+                        <button class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#five" aria-expanded="true" aria-controls="five">
                             <img src="images/logo-preto.png" width="130" height="40" class="d-inline-block align-top" alt="">
                         </button>
                     </div>
-                    <div class="card-body text-center collapse" id="five" aria-labelledby="Five" data-parent="#accordion">
-                        <h5 class="card-title">Abertura de chamados</h5>
-                        <p class="card-text mb-5">Abrir chamados para assistencia, ajuda e solicitações em geral.</p>
+                    <div class="card-body text-center collapse show" id="five" aria-labelledby="Five" data-parent="#accordion">
+                        <h5 class="card-title">Abertura de chamados - Suporte TI</h5>
+                        <p class="card-text mb-5">Abrir chamados para assistencia, ajuda ou solicitações.</p>
                         <a href="/chamado" class="btn btn-primary">Ir ao formulario</a>
                     </div>
             </div>
