@@ -32,7 +32,7 @@ class newChamados extends Mailable
     {
         $this
             ->from ( config('mail.from.address'))
-            ->subject("Filial ".$this->data['filial']." - ".$this->data['tipo']. " ".$this->data['categoria'])
+            ->subject("Filial ".$this->data['filial']." - ".$this->data['tipo']. "/".$this->data['categoria'])
             ->view('sender.mailChamado')
             ->with('data',$this->data);
     }

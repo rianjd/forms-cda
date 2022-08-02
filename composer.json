@@ -13,7 +13,9 @@
         "laravel/tinker": "^2.5",
         "phpmailer/phpmailer": "^6.6",
         "symfony/http-client": "^5.4",
-        "symfony/mailgun-mailer": "^5.4"
+        "symfony/mailgun-mailer": "^5.4",
+        "twbs/bootstrap": "4.6.2",
+        "twbs/bootstrap-icons": "^1.9"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

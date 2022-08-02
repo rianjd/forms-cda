@@ -16,7 +16,7 @@
 
 <div class="container">
     <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-primary rounded shadow">
-        <img class="mr-3" id="logo-messenger" src={{"https://github.com/rianjd/forms-cda/blob/master/public/images/logo-branco.png?raw=true"}} width="150" height="80" style="display:block;" alt="">
+        <img class="mr-3" id="logo-messenger" src={{"https://github.com/rianjd/forms-cda/blob/master/public/images/logo-preto.png?raw=true"}} width="150" height="80" style="display:block;" alt="">
     </div>
 
     <div class="my-3 p-3 bg-white rounded shadow-sm">

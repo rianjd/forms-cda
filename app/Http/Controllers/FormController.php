@@ -57,9 +57,7 @@ class FormController extends Controller
         if ($request->input('inDJ') != "") $data['inDJ']=$request->input('inDJ');
         if ($request->input('msg') != "") $data['msg']=$request->input('msg');
 
-        Mail::to('chamados@casasdaagua.com.br')
-                ->send(new newLaravelTips($data));
-        Mail::to('suporte.ti@casasdaagua.com.br')
+        Mail::to('rian.ti@casasdaagua.com.br')
                 ->send(new newLaravelTips($data));
 
 

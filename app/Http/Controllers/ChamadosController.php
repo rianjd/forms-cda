@@ -58,8 +58,7 @@ class ChamadosController extends Controller
 
         Mail::to('chamados@casasdaagua.com.br')
                 ->send(new newChamados($data));
-        Mail::to('suporte.ti@casasdaagua.com.br')
-                ->send(new newChamados($data));
+
 
 
         return back()
