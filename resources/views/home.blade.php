@@ -57,7 +57,7 @@
             <div class="card">
                     <div class="card-header" id="Five">
                         <button class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#five" aria-expanded="false" aria-controls="five">
-                            <img src="images/logo-preto.png" width="130" height="70" class="d-inline-block align-top" alt="">
+                            <img src="images/logo-preto.png" width="130" height="40" class="d-inline-block align-top" alt="">
                         </button>
                     </div>
                     <div class="card-body text-center collapse" id="five" aria-labelledby="Five" data-parent="#accordion">
@@ -74,10 +74,12 @@
                         Instruções
                 </div>
                 <div class="card-body">
-                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(139, 4, 4);"></i> - Para preencher os formularios o gerente da sua filial deve estar ciente, evitando mal entendidos.</p>
-                  <strong>2.</strong><p class="card-text">Todos os campos marcados com ( * ) são obrigatórios.</p>
-                  <strong>3.</strong><p class="card-text">Adicione ao campo 'observações' a maior quantidade de detalhes referente a sua solicitação.</p>
-                  <strong>4.</strong><p class="card-text">Em caso de falta de informações ou não entendimento da solicitação, entrareos em contato com o solicitante.</p>
+                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(139, 4, 4);font-size:22px;"></i> Cada formulario é designado a um objetivo, preste atenção antes de selecionar.</p>
+                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(139, 4, 4);font-size:22px;"></i>  Para preencher os formularios o gerente da sua filial deve estar ciente, evitando mal entendidos.</p>
+                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(139, 4, 4);font-size:22px;"></i>  Todos os campos marcados com ( * ) são obrigatórios.</p>
+                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(139, 4, 4);font-size:22px;"></i>  Adicione ao campo 'observações' a maior quantidade de detalhes referente a sua solicitação.</p>
+                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(139, 4, 4);font-size:22px;"></i>  Em caso de falta de informações ou não entendimento da solicitação, entrareos em contato com o solicitante.</p>
+                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(139, 4, 4);font-size:22px;"></i>  Caso encontre erros ou falhas, entrar em contato com o Suporte.</p>
                   <p class="card-text"><small class="text-muted">Ainda com duvidas? Ligue 3090 (TI)</small></p>
                 </div>
         </div>
