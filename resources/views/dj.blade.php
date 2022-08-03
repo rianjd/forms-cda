@@ -15,7 +15,7 @@
               <div class="row">
                 <div class="col-md-6 form-group mb-5">
                   <label for="" class="col-form-label">Nome completo *</label>
-                  <input type="text" class="form-control" name="nome" id="nome" required="" placeholder="Seu nome">
+                  <input type="text" class="form-control" name="nome" id="nome" required="" placeholder="">
                 </div>
                 <div class="col-md-6 form-group mb-5">
                   <label for="" class="col-form-label">Login core*</label>
@@ -52,7 +52,7 @@
                   <span class="submitting"></span>
                 </div>
               </div>
-              <p> * Caso não possua login no CORE, favor enviar planilha de Criação de usuario core e selecionar a opção "Incluir no DJ" .</p>
+              <p class="card-text"><i class="bi bi-info"></i> Caso não possua login no CORE, favor enviar planilha de Criação de usuario core e selecionar a opção "Incluir no DJ" .</p>
               <input type="hidden" id="tipo" name="tipo" value="DJ">
 
             </form>

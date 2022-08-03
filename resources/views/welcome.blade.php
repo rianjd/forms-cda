@@ -22,7 +22,7 @@
     <nav class="navbar navbar-dark navbar-expand-lg" style="margin-bottom: 1em;">
         <a class="navbar-brand" href="#">
             <img class="logomarca" src="images/logo-branco.png" width="130">
-            <a class="navbar-brand" href="#"></a>
+            <a class="navbar-brand" style="margin-right: -5em;" href="#"></a>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,22 +30,22 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav ">
               <li class="nav-item active">
-                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link mr-5" href="/">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/core">Usuario Core </a>
+                <a class="nav-link mr-5" href="/core">Usuario Core </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/chat">Chat</a>
+                <a class="nav-link mr-5" href="/chat">Chat</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link " href="/dj">DJ PDV</a>
+                <a class="nav-link mr-5" href="/dj">DJ PDV</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/email">Email</a>
+                <a class="nav-link mr-5" href="/email">Email</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/chamado">Chamados</a>
+                <a class="nav-link mr-5" href="/chamado">Chamados</a>
               </li>
             </ul>
 

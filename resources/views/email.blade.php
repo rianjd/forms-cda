@@ -15,7 +15,7 @@
               <div class="row">
                 <div class="col-md-12 form-group mb-5">
                   <label for="" class="col-form-label">Nome *</label>
-                  <input type="text" class="form-control" name="nome" id="nome" required="" placeholder="Seu nome">
+                  <input type="text" class="form-control" name="nome" id="nome" required="" placeholder="">
                 </div>
               </div>
 

@@ -9,17 +9,18 @@
         <div class="col-md-7">
           <div class="form h-100 contact-wrap p-5">
             <h3 class="text-center mb-5">Novo usuario - Core</h3>
-            <form class="mb-5" action="{{ route('form.store')}}" method="post" id="tipo" name="tipo" value="coreForm">
+            <form class="mb-5 needs-validation" action="{{ route('form.store')}}" method="post">
               {{ csrf_field() }}
 
               <div class="row">
                 <div class="col-md-6 form-group mb-5">
                   <label for="" class="col-form-label">Nome completo *</label>
-                  <input type="text" class="form-control" name="nome" id="nome" required="" placeholder="Seu nome">
+                  <input type="text" class="form-control" name="nome" id="nome" required placeholder="">
+
                 </div>
                 <div class="col-md-6 form-group mb-5">
                   <label for="" class="col-form-label">CPF *</label>
-                  <input type="cpf" class="form-control" name="cpf" id="cpf" required=""  placeholder="Seu CPF">
+                  <input type="cpf" class="form-control" name="cpf" id="cpf" required  placeholder=" ">
                 </div>
               </div>
               <div class="row">
@@ -28,13 +29,15 @@
                     <select class="form-control" name="setor" required="">
                     <option value="">Escolha...</option>
                     <option>Crediario</option>
-                    <option>Pacote</option>
+                    <option>Pacote/Reposição</option>
                     <option>Caixa</option>
-                    <option>Vendas</option>
+                    <option>Vendas/Atendente</option>
                     <option>Logistica</option>
                     <option>ADM</option>
                     <option>Volante</option>
                     <option>Gerencia</option>
+                    <option>Depósito</option>
+                    <option>Compras</option>
                     </select>
                     <div class="invalid-feedback">
                         Por favor, escolha um setor.
@@ -71,11 +74,13 @@
                 </div>
               </div>
               <div class="row justify-content-center">
-                <div class="col-md-4 form-group text-center">
+                <div class="col-md-4 mb-5 form-group text-center">
                   <input type="submit" value="Enviar" class="btn btn-block btn-primary rounded-0 py-2 px-4">
                   <span class="submitting"></span>
                 </div>
               </div>
+              <p class="card-text"><i class="bi bi-info"></i> As aréas preenchidas acima devem conter apenas as informações do colaborador que será criado o login.</p>
+
               <input type="hidden" id="tipo" name="tipo" value="Core">
             </form>
 

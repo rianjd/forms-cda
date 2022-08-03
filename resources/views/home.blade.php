@@ -5,8 +5,8 @@
 <div class="container-fluid" style="padding: 50px;">
   <div class="row ">
     <div class="col-md-6 mb-5">
-        <div class="accordion " id="accordion">
-            <div class="card" id="Tone">
+        <div class="accordion shadow" id="accordion">
+            <div class="card  " id="Tone">
                 <div class="card-header" >
                         <button class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#one" aria-expanded="false" aria-controls="one">
                             <img src="images/corebusiness_1200x300.png" width="120" height="30" class="d-inline-block align-top" alt="">
@@ -73,15 +73,15 @@
     <div class="col-md-6">
         <div class="card mb-3 " >
                 <div class="card-header text-center">
-                        <h3>Instruções</h3>
+                        <h4>Instruções</h4>
                 </div>
                 <div class="card-body">
-                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(139, 4, 4);font-size:22px;"></i> Cada formulario é designado a um objetivo, preste atenção antes de selecionar.</p>
-                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(139, 4, 4);font-size:22px;"></i>  Para preencher os formularios o gerente da sua filial deve estar ciente, evitando mal entendidos.</p>
-                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(139, 4, 4);font-size:22px;"></i>  Todos os campos marcados com ( * ) são obrigatórios.</p>
-                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(139, 4, 4);font-size:22px;"></i>  Adicione ao campo 'observações' a maior quantidade de detalhes referente a sua solicitação.</p>
-                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(139, 4, 4);font-size:22px;"></i>  Em caso de falta de informações ou não entendimento da solicitação, entraremos em contato com o solicitante.</p>
-                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(139, 4, 4);font-size:22px;"></i>  Caso encontre erros ou falhas, entrar em contato com o Suporte.</p>
+                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(211, 175, 14);font-size:22px;"></i> Cada formulario é designado a um objetivo, preste atenção antes de selecionar.</p>
+                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(211, 175, 14);font-size:22px;"></i>  Para preencher os formularios o gerente da sua filial deve estar ciente, evitando mal entendidos.</p>
+                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(211, 175, 14);font-size:22px;"></i>  Todos os campos marcados com ( * ) são obrigatórios.</p>
+                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(211, 175, 14);font-size:22px;"></i>  Adicione ao campo 'observações' a maior quantidade de detalhes referente a sua solicitação.</p>
+                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(211, 175, 14);font-size:22px;"></i>  Em caso de falta de informações ou não entendimento da solicitação, entraremos em contato com o solicitante.</p>
+                  <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(211, 175, 14);font-size:22px;"></i>  Caso encontre erros ou falhas, entrar em contato com o Suporte.</p>
                   <p class="card-text"><small class="text-muted">Ainda com duvidas? Ligue 3090 (TI)</small></p>
                 </div>
         </div>

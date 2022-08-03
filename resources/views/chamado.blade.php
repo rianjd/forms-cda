@@ -87,7 +87,7 @@
               <div class="row ">
                 <div class="col-md-6 form-group mb-8">
                     <label for="" class="col-form-label">Email *</label>
-                    <div class="input-group"> <input type="text" name="email" placeholder="Seu email" class="form-control " required>
+                    <div class="input-group"> <input type="text" name="email" placeholder="" class="form-control " required>
                         <div class="input-group-append"> <span class="input-group-text text-muted" style="font-size:12px;">@casasdaagua.com.br</span> </div>
                     </div>
                 </div>
