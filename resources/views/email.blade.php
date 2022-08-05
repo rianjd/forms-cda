@@ -6,7 +6,7 @@
 
     <div class="container">
       <div class="row align-items-stretch justify-content-center no-gutters">
-        <div class="col-md-7">
+        <div class="col-md-9">
           <div class="form h-100 contact-wrap p-5">
             <h3 class="text-center mb-5">Solicitar email</h3>
             <form class="mb-5" action="{{ route('form.store')}}" method="post" id="contactForm" name="contactForm">
