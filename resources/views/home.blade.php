@@ -4,76 +4,61 @@
 
 <div class="container-fluid" style="padding: 50px;">
   <div class="row ">
-    <div class="col-md-6 mb-5">
-        <div class="accordion shadow" id="accordion">
-            <div class="card  " id="Tone">
+    <div class="col-md-3 mb-2">
+            <div class="card mb-2" style="box-shadow: 2px 3px 9px #b9b8b8;" id="Tone">
                 <div class="card-header" >
-                        <button class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#one" aria-expanded="false" aria-controls="one">
+                        <a class="btn btn-link btn-block text-left"  href="/core" >
                             <img src="images/corebusiness_1200x300.png" width="120" height="30" class="d-inline-block align-top" alt="">
-                        </button>
+                        </a>
                 </div>
-                <div class="card-body text-center collapse " style="padding: 0;" id="one" aria-labelledby="Tone" data-parent="#accordion">
-                    <h5 class="card-title mt-3">Criação de usuario CoreBusiness</h5>
-                    <p class="card-text mb-5">Enviar informações do colaborador para a criação de acesso ao sistema do Core.</p>
+                <div class="card-body text-center collapse show " style="padding: 0;">
+                    <h5 class="card-title mt-3" >Criação de usuario CoreBusiness</h5>
+                    <p class="card-text mb-4 p-2">Acesso ao sistema do Core.</p>
                     <a href="/core" class="btn btn-primary mb-3"  >Ir ao formulario</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card mb-2" style="box-shadow: 2px 3px 9px #b9b8b8;">
                 <div class="card-header" id="Two">
-                    <button class="btn btn-link btn-block text-left" data-toggle="collapse" href="#two" aria-expanded="false" aria-controls="two">
+                    <a class="btn btn-link btn-block text-left" href="/chat" >
                         <img src="images/logo-mattermost.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                    </button>
+                    </a>
                 </div>
-                <div class="card-body text-center collapse" style="padding: 0;" id="two" aria-labelledby="Two" data-parent="#accordion">
-                    <h5 class="card-title mt-3">Criação de Chat - Messenger</h5>
-                    <p class="card-text mb-5">Enviar informações do colaborador para a criação de login e senha no messenger.</p>
+                <div class="card-body text-center collapse show" style="padding: 0;" >
+                    <h5 class="card-title mb-4 mt-3">Criação de Chat - Messenger</h5>
                     <a href="/chat" class="btn btn-primary mb-3">Ir ao formulario</a>
                 </div>
             </div>
-            <div class="card">
+    </div>
+    <div class="col-md-3 mb-2">
+            <div class="card mb-2" style="box-shadow: 2px 3px 9px #b9b8b8;">
                 <div class="card-header" id="Tres">
-                    <button class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#tres" aria-expanded="false" aria-controls="tres">
+                    <a class="btn btn-link btn-block text-left" href="/dj">
                         <img src="images/djpdv.png" width="150" height="30" class="d-inline-block align-top" alt="">
-                    </button>
+                    </a>
                 </div>
-                <div class="card-body text-center collapse" style="padding: 0;" id="tres" aria-labelledby="Tres" data-parent="#accordion">
+                <div class="card-body text-center collapse show" style="padding: 0;">
                     <h5 class="card-title mt-3">Criação de usuario no DJ</h5>
-                    <p class="card-text mb-5">Enviar informações do colaborador para a criação de acesso ao PDV.</p>
+                    <p class="card-text mb-4 p-2">Acesso ao sistema PDV.</p>
                     <a href="/dj" class="btn btn-primary mb-3">Ir ao formulario</a>
                 </div>
             </div>
-            <div class="card">
+
+            <div class="card mb-2" style="box-shadow: 2px 3px 9px #b9b8b8;">
                 <div class="card-header" id="Four">
-                    <button class="btn btn-link btn-block text-left"  data-toggle="collapse" data-target="#four" aria-expanded="false" aria-controls="four">
+                    <a class="btn btn-link btn-block text-left" href="email" >
                         <img src="images/zimbra-black.png" width="120" height="30" class="d-inline-block align-top" alt="">
-                    </button>
+                    </a>
                 </div>
-                <div class="card-body text-center collapse"  style="padding: 0;" id="four" aria-labelledby="Four" data-parent="#accordion">
-                    <h5 class="card-title mt-3">Criação de email</h5>
-                    <p class="card-text mb-5">Enviar informações do colaborador para a criação de login e senha.</p>
+                <div class="card-body text-center collapse show"  style="padding: 0;" >
+                    <h5 class="card-title mb-4 mt-3">Criação de email</h5>
                     <a href="/email" class="btn btn-primary mb-3">Ir ao formulario</a>
                 </div>
             </div>
-            <div class="card">
-                    <div class="card-header" id="Five">
-                        <button class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#five" aria-expanded="true" aria-controls="five">
-                            <img src="images/logo-preto.png" width="130" height="40" class="d-inline-block align-top" alt="">
-                        </button>
-                    </div>
-                    <div class="collapse show card-body" style="padding: 0;" id="five" aria-labelledby="Five" data-parent="#accordion">
-                        <div class="text-center" >
-                            <h5 class="card-title mt-3">Abertura de chamados - Suporte TI</h5>
-                            <p class="card-text mb-5">Abrir chamados para assistencia, ajuda ou solicitações.</p>
-                            <a href="/chamado" class="btn btn-primary mb-3">Ir ao formulario</a>
-                        </div>
-                    </div>
-            </div>
-        </div>
     </div>
     <div class="col-md-6">
-        <div class="card mb-3 " >
+        <div class="card mb-3 " style="box-shadow: 2px 3px 9px #b9b8b8;" >
                 <div class="card-header text-center">
-                        <h4>Instruções</h4>
+                        <h4>INSTRUÇÕES</h4>
                 </div>
                 <div class="card-body">
                   <p class="card-text mb-3"><i class="bi bi-exclamation-diamond" style="color: rgb(211, 175, 14);font-size:22px;"></i> Cada formulario é designado a um objetivo, preste atenção antes de selecionar.</p>
@@ -88,21 +73,24 @@
     </div>
 
   </div>
-</div>
-<div class="modal fade" id="teste" tabindex="-1" role="dialog" aria-labelledby="teste" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Nova mensagem</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-            <span aria-hidden="true">&times;</span>
-          </button>
+  <div class="grid">
+        <div class="col-md-6 " style="padding-right: 15px; padding-left: 0 ;">
+            <div class="card" style="box-shadow: 2px 3px 9px #b9b8b8;">
+                    <div class="card-header p-3" id="Five">
+                        <a class="btn btn-link btn-block text-center" href="chamado" >
+                            <img src="images/logo-preto.png" width="150" height="60" class="d-inline-block align-top" alt="">
+                        </a>
+                    </div>
+                    <div class="collapse show card-body" style="padding: 0;" >
+                        <div class="text-center" >
+                            <h5 class="card-title mt-3">Abertura de chamados - Suporte TI</h5>
+                            <p class="card-text mb-4 p-1">Abrir chamados para assistencia, ajuda ou solicitações diretamente com o TI.</p>
+                            <a href="/chamado" class="btn btn-primary mb-3">Ir ao formulario</a>
+                        </div>
+                    </div>
+            </div>
         </div>
-        <div class="modal-body">
-
-        </div>
-    </div>
-  </div>
+   </div>
 </div>
 
 @endsection
